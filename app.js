@@ -10,9 +10,13 @@ app.get('/', (req, res) => {
 })
 
 
+app.get('/product', (req, res)=>{
+    res.render('product');
+})
 
-
-
+app.post('/product', (req, res)=>{
+    res.render('product')
+})
 
 
 
