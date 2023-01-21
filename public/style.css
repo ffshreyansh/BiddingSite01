@@ -122,6 +122,8 @@
 
 #products .card{
     margin: 1%; 
+    padding: 0;
+    width: 20rem;
 }
 #products .row{
     justify-content: space-evenly;
@@ -135,3 +137,17 @@
     padding: 2%;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .banner h3{
+        font-size: 28px;
+        padding-right: 0;
+    }
+    .banner1 .input-group{
+        padding-right: 40px;
+    }
+    #products .card{
+       width: auto;
+       margin-bottom: 2%;
+    }
+  }
